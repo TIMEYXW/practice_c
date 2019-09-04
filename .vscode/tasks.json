@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build on mac",
             "type": "shell",
-            "command": "gcc -o ${fileBasenameNoExtension} ${file} -g",
+            "command": "gcc -o ${fileBasenameNoExtension}.out ${file} -g",
         }
     ]
 }
